@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    background-color:rgb(37, 39, 39);
+    color:rgb(60, 255, 0);
+    text-align: center;
+}
+
+h1 {
+    color:cadetblue;
+    font-size: 40px;
+}
+.gameWindow {
+    background-color: black;
+    width: 500px;
+    height: 500px;
+    margin: 100px auto;
+    padding: 20px;
+}
+
+
+.buttong {
+    width: 90px;
+    height: 60px;
+    font-family: cursive;
+    font-size: 20px;
+    margin: 10px;
+    border-radius: 12px;
+    cursor: pointer; 
+    background-color: rgb(134, 139, 195);
+    box-shadow: 0 4px gray;
+}
+
+.buttong:hover {
+    background-color: rgb(73, 18, 176);
+    color:white;
+}
+
+.buttong:active {
+    box-shadow: 0 2px rgb(131, 86, 215);
+    transform: translateY(2px);
+}
+
+.computer {
+    font-size: 30px;
+    color:rgb(45, 100, 28);
+}
+
+.player {
+    color:rgb(143, 81, 45);
+    font-size: 30px;
+}
+
+#scoreBoard {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+    color:rgb(210, 254, 34)
+}
