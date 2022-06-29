@@ -1,0 +1,50 @@
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.gameContainer {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+.cell {
+    width: 80px;
+    height: 80px;
+    border: 2px solid;
+    line-height: 80px;
+    font-size: 50px;
+    cursor: pointer;
+    border-color: green;
+
+}
+
+.cellContainer {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 240px;
+    margin: auto;
+}
+
+#restartBtn {
+    display: inline-block;
+    padding: 15px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    color: #fff;
+    background-color: green;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 6px rgb(111, 111, 111);
+}
+      
+
+#restartBtn:hover {background-color: rgb(2, 114, 2)}
+      
+#restartBtn:active {
+    background-color: rgb(2, 114, 2);
+    box-shadow: 0 2px rgb(204, 38, 38);
+    transform: translateY(2px);
+}     
