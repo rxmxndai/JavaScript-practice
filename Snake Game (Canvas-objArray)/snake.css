@@ -1,0 +1,66 @@
+body {
+    background-color: rgb(28, 25, 57);
+    color: rgb(117, 240, 50)
+}
+
+
+#gameContainer {
+    text-align: center;   
+}
+
+
+#gameScreen {
+    border: 10px solid green;
+    background-color: rgba(155, 24, 207, 0.235);
+}
+
+#scored {
+    font-size: 100px;
+}
+
+
+.mode {
+    font-size: 15px;
+    margin: 10px;
+    background-color: rgb(74, 75, 75);
+    color: white;
+    border-radius: 8px;
+    padding: 15px 20px;
+    cursor: pointer;
+    box-shadow: 0 2px rgb(125, 129, 125);
+    transition-duration: 0.4s;
+    display:flexbox;
+}
+
+.mode:visited {
+    background-color:  rgb(38, 9, 98);
+}
+
+.mode:hover {
+    background-color: rgb(38, 9, 98);
+}
+
+.mode:active {
+    box-shadow: 0 0px  rgb(38, 9, 98);;
+    transform: translateY(2px);
+
+}
+#restartt {
+    background-color: rgb(14, 185, 131);
+    color: white;
+    border: 1px solid green;
+    border-radius: 8px;
+    font-size: 20px;
+    padding: 15px 20px;
+    cursor: pointer;
+    box-shadow: 0 8px rgb(125, 129, 125);
+}
+
+#restartt:hover {
+    background-color: rgb(20, 72, 56);
+}
+
+#restartt:active {
+    box-shadow: 0 4px rgb(20, 72, 56);
+    transform: translateY(2px);
+}
